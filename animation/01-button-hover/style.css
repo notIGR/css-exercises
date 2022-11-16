@@ -16,10 +16,19 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  /* added transition */
+  transition: transform .5s ease-in-out
 }
 
-/* My solution */
+/* MY SOLUTION 
 button:hover {
   font-size: 24px;
   transition: 500ms;
+}
+*/
+/* this covers the button enlarging but the transition back to normal size is not smooth */
+
+/* need transition AND transfrom to get animation smooth on both hover and un-hover */
+button:hover {
+  transform: scale(1.5)
 }
