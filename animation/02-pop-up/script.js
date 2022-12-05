@@ -2,7 +2,8 @@ const openButton = document.getElementById('trigger-modal');
 const closeButton = document.getElementById('close-modal');
 const backdrop = document.getElementById('backdrop')
 
-function toggleModal() {
+/*switched to arrow function */
+const toggleModal = () => {
   const modalDiv = document.querySelector('.popup-modal');
   const backdrop = document.querySelector('.backdrop')
   modalDiv.classList.toggle('show');
