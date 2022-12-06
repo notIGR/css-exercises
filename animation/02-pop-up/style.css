@@ -37,10 +37,11 @@ button {
   transform-origin: center;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  opacity: 20%;
+  opacity: 0%;
   text-align: center;
-
+  /* MY CODE */
   transition: ease-in
+    /* MY CODE */
 }
 
 .popup-modal p {
@@ -58,8 +59,10 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  /* MY CODE */
   transition: ease-in-out 225ms;
   top: 50%;
+  /* MY CODE */
 }
 
 .backdrop.show {
