@@ -1,0 +1,22 @@
+.all-btn {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: px rgb(0, 0, 0);
+}
+
+.all-btn:hover {
+    background-color: crimson;
+}
+
+.btn-1 {
+    background: black;
+    color: white;
+    cursor: alias;
+}
+
+.btn-2 {
+    background: yellow;
+    cursor: pointer;
+}
